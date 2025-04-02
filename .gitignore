@@ -1,32 +1,22 @@
 # Node.js
 node_modules/
-node_modules
+package-lock.json
+yarn.lock
+
+# Build/Output
+dist/
+build/
 .next/
 out/
-package-lock.json
-next/swc-win32-x64-msvc/next-swc.win32-x64-msvc.node
-
-# Environment variables
-.env.local
-
-# OS generated files
-.DS_Store
-Thumbs.db
 
 # Logs
 *.log
 
-# Build files
-build/
-dist/
+# Environment
+.env.local
+.env.*
 
-# Dependency directories created by IDE's
-.idea/
-.vscode/
-
-generate-secret.js
-
-# Database files
+# Databases
 *.sqlite
 *.sqlite-shm
 *.sqlite-wal
@@ -34,3 +24,18 @@ generate-secret.js
 *.mdf
 *.ldf
 databases/
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scoresheet-API Specific
+scoresheet-api/temp/
+scoresheet-api/credentials.json
+
+# Other
+# Add any other project-specific exclusions here
