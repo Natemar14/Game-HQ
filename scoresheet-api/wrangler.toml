@@ -1,0 +1,8 @@
+name = "scoresheet-api"
+main = "src/index.ts"
+compatibility_date = "2023-11-15"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "scoresheet-db"
+database_id = "YOUR_D1_DATABASE_ID"

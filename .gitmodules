@@ -1,0 +1,3 @@
+[submodule "game-database-app"]
+	path = game-database-app
+	url = https://github.com/yourusername/game-database-app.git
