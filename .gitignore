@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+.next/
+out/
+package-lock.json
+next/swc-win32-x64-msvc/next-swc.win32-x64-msvc.node
+
+# Environment variables
+.env.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build files
+build/
+dist/
+
+# Dependency directories created by IDE's
+.idea/
+.vscode/
+
+generate-secret.js
