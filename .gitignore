@@ -1,5 +1,6 @@
 # Node.js
 node_modules/
+node_modules
 .next/
 out/
 package-lock.json
@@ -24,3 +25,12 @@ dist/
 .vscode/
 
 generate-secret.js
+
+# Database files
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.mdf
+*.ldf
+databases/
